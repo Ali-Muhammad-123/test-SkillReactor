@@ -1,0 +1,15 @@
+<form
+  action="/api/upload"
+  method="POST"
+  enctype="multipart/form-data">
+    <input name="images" type="file" multiple/>
+    <button type="submit">submit</button>
+</form>
+
+<form
+  action="/api/download"
+  method="GET"
+  enctype="multipart/form-data">
+    <input name="file" type="text" />
+    <button type="submit">submit</button>
+</form>
